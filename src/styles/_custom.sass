@@ -2,13 +2,39 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    left: 10%
+    bottom: 22%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 16%
+    right: 8%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 30%
+    right: 0
+
+.banner-interno
+  height: 150px
+  .banner-interno__fondo
+    background-position: right top
+    background-image: url(../assets/curso/fondo_tema.png) !important
+
+//Banners
+.banner-principal__row
+  .banner-principal__img
+    padding-top: 1.2rem !important
+    padding-bottom: 1.2rem !important
+    img
+      margin-left: auto
+      max-width: 468px
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
 
 @keyframes float1
@@ -18,3 +44,161 @@
   100%
     transform: translateY(0px)
 
+//colores
+.fondo-color-sistema-h
+  background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+
+//bordes
+.no-borde
+  border: none !important
+.borde-4
+  border-radius: 4px
+.borde-8
+  border-radius: 8px
+.borde-9
+  border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-12
+  border-radius: 12px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-18
+  border-radius: 18px
+.borde-20
+  border-radius: 20px
+.borde-22
+  border-radius: 22px
+.borde-23
+  border-radius: 23px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.size-full
+    &:before
+      background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
+  &.pos-center
+    &:before
+      background-position: center
+  &.f1
+    &:before
+      background-image: url(../assets/curso/temas/20.png)
+  &__contenido
+    position: relative
+
+//titulos
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 0.7rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 22px
+    bottom: 0px
+    left: 0px
+    right: 0
+    z-index: 0
+    border-radius: 4px
+  .cont-text 
+    position: relative
+    h3
+      margin: 0
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      padding-bottom: 0.5rem
+      padding-top: 1rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+
+  .cont-figura
+    position: relative
+    img
+      max-width: 54px
+      min-width: 54px
+
+//acordion
+.acordion-personalizado-1
+  .tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-sistema-k
+    &.acordion__activo
+      background-color: $color-sistema-l
+  .acordion__accion__btn--a
+    width: 50px
+    height: 50px
+    background-color: $color-acento-botones !important
+    color: $white
+
+//tarjetas
+.tarjeta-p-1
+  .contenido-tar
+    position: relative
+  background-color: $color-sistema-l
+  border-radius: 23px
+  .fig-1
+    position: absolute
+    top: 0
+    left: 0
+    max-width: 57px
+  &:hover
+    background-color: $color-sistema-k
+  transition: background-color .3s
+  

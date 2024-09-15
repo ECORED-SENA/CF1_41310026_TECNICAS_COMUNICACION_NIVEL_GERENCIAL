@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **La comunicación**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_41310026_TECNICAS_COMUNICACION_NIVEL_GERENCIAL/#/](https://ecored-sena.github.io/CF1_41310026_TECNICAS_COMUNICACION_NIVEL_GERENCIAL/#/)
 
 #
 
