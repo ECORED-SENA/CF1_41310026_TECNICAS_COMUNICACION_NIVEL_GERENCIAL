@@ -57,6 +57,10 @@
   background-color: $color-sistema-l
 .fondo-color-sistema-m
   background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
 
 //bordes
 .no-borde
@@ -75,6 +79,10 @@
   border-radius: 14px
 .borde-15
   border-radius: 15px
+.borde-16
+  border-radius: 16px
+.borde-17
+  border-radius: 17px
 .borde-18
   border-radius: 18px
 .borde-20
@@ -133,6 +141,12 @@
   &.f1
     &:before
       background-image: url(../assets/curso/temas/20.png)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/28.png)
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/36.png)
   &__contenido
     position: relative
 
@@ -202,3 +216,21 @@
     background-color: $color-sistema-k
   transition: background-color .3s
   
+//slyders personalizados    
+.slider-personalizado-1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    background-image: url(../assets/curso/temas/30.svg)
+  .slyder-a__bullets__item
+    opacity: 0.35
+    background-color: $color-acento-contenido
+    border: none !important
+    &--active
+      opacity: 1 !important
+
+//tabs
+.tabs-c-p-1
+  .tabs-c__tab--active
+    font-weight: bold
+  .tabs-c__header
+    margin-bottom: 0
