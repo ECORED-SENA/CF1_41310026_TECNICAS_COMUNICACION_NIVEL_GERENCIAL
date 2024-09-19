@@ -63,6 +63,8 @@
   background-color: $color-sistema-o
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido
+.fondo-color-secundario
+  background-color: $color-secundario
 
 //bordes
 .no-borde
@@ -158,6 +160,9 @@
   &.f4
     &:before
       background-image: url(../assets/curso/temas/52.png)
+  &.f5
+    &:before
+      background-image: url(../assets/curso/temas/75.svg)
   &__contenido
     position: relative
 
@@ -239,9 +244,37 @@
     &--active
       opacity: 1 !important
 
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    i
+      color: $white !important
+    &:before
+      content: ""
+      background-color: $color-acento-botones
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1.2rem
+      color: $white
+
 //tabs
 .tabs-c-p-1
   .tabs-c__tab--active
     font-weight: bold
   .tabs-c__header
     margin-bottom: 0
+
+//sombras
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 15px 0px rgba(15,31,51,0.24)
+  -moz-box-shadow: 0px 3px 15px 0px rgba(15,31,51,0.24)
+  box-shadow: 0px 3px 15px 0px rgba(15,31,51,0.24)
