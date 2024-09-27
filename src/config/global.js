@@ -271,16 +271,16 @@ export default {
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

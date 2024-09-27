@@ -27,7 +27,7 @@
             .fondo-color-sistema-k.h-100.align-content-center.p-4
               p.mb-0 En este contexto, es vital comprender los elementos esenciales que conforman el proceso comunicativo, como el emisor, el receptor, el mensaje, el código y el canal. Estos componentes interactúan constantemente para asegurar que la información fluya de manera clara y precisa, evitando malentendidos y garantizando que el mensaje llegue de forma adecuada a su destino. Además, la retroalimentación juega un papel crucial al permitir ajustes y mejoras continuas en la comunicación.
       .col-lg-3.order-first.order-lg-last
-        figure.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-left")
           img.mx-auto(src="@/assets/curso/temas/3.png",style="max-width: 310px;")
     
     .row.align-items-center

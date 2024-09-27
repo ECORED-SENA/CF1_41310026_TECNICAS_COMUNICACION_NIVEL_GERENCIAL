@@ -114,7 +114,7 @@
         .row.align-items-center
           .col-lg-8
             .fondo-color-sistema-m.p-4
-              p.mb-4(data-aos="fade") En el contexto de la Revolución científico-tecnológica, las relaciones interpersonales y espaciales se producen cada vez menos cara a cara. Un número creciente de redes organiza e intermedia la interacción. Por ello, es necesario fomentar nuevas formas de intercambio, no solo entre individuos, sino también entre los individuos y la organización como espacio de pertenencia. Entre las posibilidades que puede implementar una empresa se encuentran:
+              p.mb-4(data-aos="fade") En el contexto de la revolución científico-tecnológica, las relaciones interpersonales y espaciales se producen cada vez menos cara a cara. Un número creciente de redes organiza e intermedia la interacción. Por ello, es necesario fomentar nuevas formas de intercambio, no solo entre individuos, sino también entre los individuos y la organización como espacio de pertenencia. Entre las posibilidades que puede implementar una empresa se encuentran:
 
               .bg-white.borde-23.p-3.mb-3(data-aos="fade-up")
                 .row.align-items-center

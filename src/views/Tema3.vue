@@ -12,7 +12,7 @@
         .row.mb-4
           .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
             .fondo-color-sistema-k.p-4.borde-15.h-100.align-content-center
-              p.mb-0 Toda organización es el resultado de la participación activa de diversas partes, incluidas sus objetivos, mecanismos organizativos y estructura económica. La comunicación es un mecanismo que atraviesa la institución en diversas dimensiones. A partir de ello, se pueden identificar diferentes ámbitos de la comunicación en las organizaciones, como se presenta a continuación:
+              p.mb-0 Toda organización es el resultado de la participación activa de diversas partes, incluidos sus objetivos, mecanismos organizativos y estructura económica. La comunicación es un mecanismo que atraviesa la institución en diversas dimensiones. A partir de ello, se pueden identificar diferentes ámbitos de la comunicación en las organizaciones, como se presenta a continuación:
           .col-lg-7(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/34.png",style="max-width: 715px;")
