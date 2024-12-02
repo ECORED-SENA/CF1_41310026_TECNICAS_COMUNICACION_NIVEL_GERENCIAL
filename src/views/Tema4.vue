@@ -44,14 +44,6 @@
                   img.mx-auto(src="@/assets/curso/temas/44.png",style="max-width: 493px;")
             .row.justify-content-center.align-items-center
               .col-lg-6.mb-4.mb-lg-0
-                h5.mb-4.pt-lg-4 Cuadernillo de bienvenida
-                p.mb-0 Guía para nuevos integrantes de la institución, incluye una síntesis histórica, normas internas, organigrama e información sobre el personal.
-
-              .col-lg-5
-                figure
-                  img.mx-auto(src="@/assets/curso/temas/44.png",style="max-width: 493px;")
-            .row.justify-content-center.align-items-center
-              .col-lg-6.mb-4.mb-lg-0
                 h5.mb-4.pt-lg-4 Manuales de estilo
                 p.mb-0 Guías sistematizadas que incluyen procedimientos institucionales, información técnica, organizativa e histórica. Ayudan a coordinar actividades y a evitar contradicciones en los mensajes.
 
@@ -130,7 +122,7 @@
                     figure.mb-4.mb-md-0
                       img.mx-auto(src="@/assets/curso/temas/55.svg",style="max-width: 104px;")
                   .col
-                    h5.mb-2 #[em Intranet]
+                    h5.mb-2 Intranet
                     p.mb-0 Red interna rápida e instantánea, que requiere que las computadoras estén interconectadas.
               .bg-white.borde-23.p-3(data-aos="fade-down")
                 .row.align-items-center
